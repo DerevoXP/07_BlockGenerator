@@ -1,0 +1,89 @@
+*{
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#forma{
+
+    width: 100%;
+    font-size: 0;
+    height: 175px;
+    background-color: grey;
+    bottom: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+#forma p{
+    display: inline-block;
+    font-size: 16px;
+    width: 30%;
+    height: 20px;
+    margin: 10px 0 5px 2%;
+    padding: 0 5px 0 0;
+}
+
+#forma input{
+    font-size: 16px;
+    width: 30%;
+    height: 25px;
+    margin: 0 0 0 2%;
+    padding: 0 0 0 0;
+    border-radius: 5px;
+    
+}
+
+#forma textarea{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 0% 0 2%;
+    padding: 0;
+    width: 76%;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 0 0 5px;
+}
+
+#forma .butt{
+    font-size: 16px;
+    float: right;
+    width: 15%;
+    height: 60px;
+    margin: 0 3% 0 0;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#lalangamena{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width: 30.4%;
+    height: 300px;
+    margin: 20px 0% 10px 2%;
+}
+
+.card h3{
+    font-size: 18px;
+    margin: 10px 0 0 10px;
+    display: block;  
+}
+
+.card .cont{
+    font-size: 16px;
+    margin: 10px 0 0 10px;
+    display: block; 
+}
+
+.card .aut{
+    font-size: 16px;
+    position: absolute;
+    margin: 0;
+    bottom: 10px;
+    right: 10px;
+}
